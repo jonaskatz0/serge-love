@@ -16,6 +16,7 @@ function getLocalIPs(): string[] {
 }
 
 const nextConfig: NextConfig = {
+  serverExternalPackages: ['@prisma/client', 'pg'],
   allowedDevOrigins: getLocalIPs(),
   images: {
     remotePatterns: [

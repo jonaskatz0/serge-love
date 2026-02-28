@@ -15,7 +15,14 @@
       "Bash(ssh -T git@github.com)",
       "Bash(brew install gh)",
       "Bash(gh auth status)",
-      "Bash(git -C /Users/jonasfournier/serge.love push -u origin main)"
+      "Bash(git -C /Users/jonasfournier/serge.love push -u origin main)",
+      "Bash(git -C /Users/jonasfournier/serge.love add lib/prisma.ts)",
+      "Bash(git -C /Users/jonasfournier/serge.love commit -m \"fix: use relative import for prisma client to fix Turbopack resolution:*)",
+      "Bash(git -C /Users/jonasfournier/serge.love push)",
+      "Bash(npx prisma generate)",
+      "Bash(git -C /Users/jonasfournier/serge.love rm -r --cached app/generated/prisma)",
+      "Bash(git -C /Users/jonasfournier/serge.love add -A)",
+      "Bash(git -C /Users/jonasfournier/serge.love commit -m \"fix: switch to prisma-client-js + @prisma/client standard import:*)"
     ]
   }
 }
