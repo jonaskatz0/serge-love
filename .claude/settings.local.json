@@ -22,7 +22,8 @@
       "Bash(npx prisma generate)",
       "Bash(git -C /Users/jonasfournier/serge.love rm -r --cached app/generated/prisma)",
       "Bash(git -C /Users/jonasfournier/serge.love add -A)",
-      "Bash(git -C /Users/jonasfournier/serge.love commit -m \"fix: switch to prisma-client-js + @prisma/client standard import:*)"
+      "Bash(git -C /Users/jonasfournier/serge.love commit -m \"fix: switch to prisma-client-js + @prisma/client standard import:*)",
+      "Bash(git -C /Users/jonasfournier/serge.love commit -m \"fix: disable Turbopack for build + add driverAdapters preview feature:*)"
     ]
   }
 }
