@@ -11,7 +11,11 @@
       "WebFetch(domain:kie.ai)",
       "Bash(DATABASE_URL=\"postgresql://neondb_owner:npg_D2q6pNFxevXU@ep-soft-hill-alyyz2j7-pooler.c-3.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require\" npx prisma db push)",
       "Bash(npx tsc --noEmit)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ssh -T git@github.com)",
+      "Bash(brew install gh)",
+      "Bash(gh auth status)",
+      "Bash(git -C /Users/jonasfournier/serge.love push -u origin main)"
     ]
   }
 }
