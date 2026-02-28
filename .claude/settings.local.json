@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir=false --no-eslint --import-alias \"@/*\" --yes)",
+      "Bash(npx create-next-app@16.1.6 /tmp/serge-love-init --typescript --tailwind --app --src-dir=false --no-eslint --import-alias \"@/*\" --yes)",
+      "Bash(rsync -av --exclude='.git' /tmp/serge-love-init/ /Users/jonasfournier/serge.love/)",
+      "Bash(npm install @clerk/nextjs prisma @prisma/client stripe @stripe/stripe-js lucide-react clsx tailwind-merge recharts @radix-ui/react-dialog @radix-ui/react-select @radix-ui/react-switch)",
+      "Bash(npm install -D @types/node)",
+      "Bash(npx prisma init)",
+      "WebFetch(domain:docs.kie.ai)",
+      "WebFetch(domain:kie.ai)",
+      "Bash(DATABASE_URL=\"postgresql://neondb_owner:npg_D2q6pNFxevXU@ep-soft-hill-alyyz2j7-pooler.c-3.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require\" npx prisma db push)",
+      "Bash(npx tsc --noEmit)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="8" fill="#0A0A0B"/>
+  <path d="M10 20C10 14.477 14.477 10 20 10C22.652 10 25.074 11.054 26.874 12.782L23.95 15.706C22.904 14.66 21.527 14 20 14C16.686 14 14 16.686 14 20C14 23.314 16.686 26 20 26C21.527 26 22.904 25.34 23.95 24.294L26.874 27.218C25.074 28.946 22.652 30 20 30C14.477 30 10 25.523 10 20Z" fill="white"/>
+  <path d="M26 20C26 23.314 23.314 26 20 26V30C25.523 30 30 25.523 30 20H26Z" fill="#2563EB"/>
+  <text x="50" y="26" font-family="Inter, sans-serif" font-size="17" font-weight="700" fill="#0A0A0B">serge.love</text>
+</svg>
